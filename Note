@@ -1,0 +1,30 @@
+# Melhorias 01
+	- Coletar dados de quem acessa meu site e enviar para minha conta Google Analytics.
+
+====>>> Passo a passo para configurar o meu site.
+
+
+1️⃣ Criar uma conta no Google Analytics
+Acesse Google Analytics.
+Faça login com sua conta do Google.
+Crie uma nova propriedade e obtenha um ID de rastreamento (parecido com G-XXXXXXXXXX).
+
+Add aqui no código.
+https://www.googletagmanager.com/gtag/js?id=G-
+
+
+2️⃣ Adicionar o código do Google Analytics no seu site
+No <head> do seu site, adicione este código (substitua G-XXXXXXXXXX pelo seu ID real):
+
+4️⃣ Acessar os dados coletados
+Vá para Google Analytics > Relatórios e veja visitas, tempo na página, origem do tráfego, etc.
+Em Eventos, veja os eventos personalizados que você configurou.
+
+5️⃣ (Opcional) Enviar os dados para você via e-mail ou API
+Se quiser receber os dados fora do Google Analytics:
+✅ Use a API do Google Analytics para puxar os dados e armazená-los em um banco de dados.
+✅ Configure Google Sheets para salvar relatórios automáticos.
+✅ Use Google Data Studio para criar dashboards personalizados.
+
+==========================================================>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<===========================================================
+==========================================================>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<===========================================================
