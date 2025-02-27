@@ -1,0 +1,31 @@
+# Versionamento de Código
+
+Update principal — Quando se faz grandes atualizações de software, adiciona novas funcionalidades por exemplo, layout ou algo que sofra grandes impactos.
+
+Update menor — Quando se adiciona pequenas funcionalidades que não alteram grande parte da estrutura de códigos já existentes, como se fosse pequenas atualizações dentro do software.
+
+Update correção de bugs — Todos os softwares existem bugs, sempre que for adicionar uma pequena nova correção para corrigir os bugs.
+
+Fonte: https://medium.com/@elvis./versionamento-de-c%C3%B3digo-6b19a17c533e
+
+
+No contexto de versionamento de código, geralmente se usa o Versionamento Semântico (Semantic Versioning, ou SemVer), que segue o formato:
+
+MAJOR.MINOR.PATCH
+
+Onde:
+
+MAJOR (Versão principal): Incrementado quando há mudanças incompatíveis com versões anteriores.
+MINOR (Versão secundária): Incrementado quando há novas funcionalidades adicionadas, mas de forma compatível com versões anteriores.
+PATCH (Correção): Incrementado quando há correções de bugs ou melhorias pequenas, sem mudanças na compatibilidade.
+
+Exemplo:
+1.0.0 – Primeira versão estável.
+1.1.0 – Nova funcionalidade adicionada, compatível com 1.0.0.
+1.1.1 – Correção de um bug sem alterar funcionalidades.
+2.0.0 – Mudança significativa e possivelmente incompatível com a versão 1.x.x.
+Outros Sufixos:
+Pré-lançamento: 1.2.0-beta.1, 2.0.0-rc.1 (beta, release candidate, etc.).
+Build Metadata: 1.2.0+20240227 (para indicar informações de build).
+
+Fonte: https://chatgpt.com/
