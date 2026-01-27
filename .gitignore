@@ -1,1 +1,5 @@
-**.ipynb_checkpoints
+# Ignorar Arquivos de saida/Out put ou cache do jupyter notebook
+.ipynb_checkpoints
+
+# Ignorar Arquivos de Saida do MacOS
+.DS_Store
