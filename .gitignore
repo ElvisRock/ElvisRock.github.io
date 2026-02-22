@@ -3,3 +3,6 @@
 
 # Ignorar Arquivos de Saida do MacOS
 .DS_Store
+
+# Ignorar para todos os arquivos que forem gerados dentro de alguma pasta 
+**/.DS_Store
